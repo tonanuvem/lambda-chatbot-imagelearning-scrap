@@ -47,11 +47,12 @@ O Front End mobile foi desenvolvido em react native por outro integrante da equi
 >`Comunicação do Assistente em diversos canais: Whatsapp, Facebook, Twitter`
 
 ```Descrição:
-
+```
 
 >`Armazenamento das imagens:`
 
 ```Descrição:
+```
 
 ---
 ### **Demonstrativo da aplicação:**
