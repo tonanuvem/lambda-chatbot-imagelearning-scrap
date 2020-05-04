@@ -8,6 +8,8 @@ A solução utiliza as melhores práticas de divisão em diversos microserviços
 
 O Front End mobile foi desenvolvido em react native por outro integrante da equipe. Link do repositório:
 
+---
+
 ## **Tecnologias e Stacks utilizadas:**
 
 `Twilio: integração com o WhatsApp para receber solicitações e posterior resposta.`
