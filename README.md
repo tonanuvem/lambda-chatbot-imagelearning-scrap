@@ -32,7 +32,7 @@ O Front End mobile foi desenvolvido em react native por outro integrante da equi
 >`Scrap:`
 
 ```Descrição:
-
+```
 
 >`Chatbot:`
 
