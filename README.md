@@ -2,6 +2,8 @@
 
 [Demonstração do assistente virtual](http://bit.ly/eq28olist)
 
+[Vídeo do pitch](https://www.youtube.com/watch?v=-5I-7OoBm6Y)
+
 ## **Topologia da solução:**
 
 A solução utiliza as melhores práticas de divisão em diversos microserviços.
