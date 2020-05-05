@@ -59,8 +59,10 @@ O Mobile App para Realidade Aumentada foi desenvolvido em react native por outro
 ```
 
 ---
-### **Demonstrativo da aplicação:**
+### **Demonstrativo da aplicação Chatbot:**
 
+Demonstração do módulo Chatbot utilizado pelo OLY (https://bot.dialogflow.com/tonanuvem)
 
+![Alt Text](chatbot-motor.png)
 
 ---
