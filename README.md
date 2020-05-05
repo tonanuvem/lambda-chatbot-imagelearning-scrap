@@ -1,4 +1,4 @@
-# OLY: Assistente Virtual
+# OLY: Assistente Virtual imersivo
 
 [Demonstração do assistente virtual](http://bit.ly/eq28olist)
 
