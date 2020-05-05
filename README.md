@@ -4,13 +4,15 @@
 
 [Vídeo do pitch](https://www.youtube.com/watch?v=-5I-7OoBm6Y)
 
+[Mobile App](https://github.com/patrickbattisti/olist-augmented-reality) 
+
 ## **Topologia da solução:**
 
 ![Alt Text](Megahack.jpg)
 
 A solução utiliza as melhores práticas de divisão de responsabilidades em microserviços.
 
-O Mobile App para Realidade Aumentada foi desenvolvido em react native por outro integrante da equipe. [Link do repositório](https://github.com/patrickbattisti/olist-augmented-reality) 
+O Mobile App para Realidade Aumentada foi desenvolvido em react native por outro integrante da equipe.
 
 ---
 
