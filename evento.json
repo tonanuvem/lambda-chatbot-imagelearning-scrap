@@ -1,0 +1,13 @@
+{
+    "AccountSid": "AC6977a5191bd0fd8bd3844bb07ccfe387",
+    "ApiVersion": "2010-04-01",
+    "Body": "oi",
+    "From": "whatsapp:+5511987654321",
+    "MessageSid": "SMab66b61bb6b0e2784c9d245b3ccf258b",
+    "NumMedia": "0",
+    "NumSegments": "1",
+    "SmsMessageSid": "SMab66b61bb6b0e2784c9d245b3ccf258b",
+    "SmsSid": "SMab66b61bb6b0e2784c9d245b3ccf258b",
+    "SmsStatus": "received",
+    "To": "whatsapp:+14155238886"
+}
