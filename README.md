@@ -8,7 +8,7 @@
 
 ![Alt Text](Megahack.jpg)
 
-A solução utiliza as melhores práticas de divisão em diversos microserviços.
+A solução utiliza as melhores práticas de divisão de responsabilidades em microserviços.
 
 O Mobile App para Realidade Aumentada foi desenvolvido em react native por outro integrante da equipe. [Link do repositório](https://github.com/patrickbattisti/olist-augmented-reality) 
 
