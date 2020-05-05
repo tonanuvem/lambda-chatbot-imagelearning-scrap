@@ -59,6 +59,6 @@ O Front End mobile foi desenvolvido em react native por outro integrante da equi
 ---
 ### **Demonstrativo da aplicação:**
 
-![Alt Text](megahack.jpg)
+![Alt Text](Megahack.jpg)
 
 ---
