@@ -69,3 +69,12 @@ O Mobile App para Realidade Aumentada foi desenvolvido em react native por outro
 ![Alt Text](chatbot-motor.png)
 
 ---
+
+### ** Repositorio do projeto 3D:**
+
+[Projeto assistente-3d](https://github.com/tonanuvem/assistente-3d)
+
+![Alt Text](assistente-3d/tela-projeto-3d.png)
+
+---
+
