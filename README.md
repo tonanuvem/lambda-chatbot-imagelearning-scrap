@@ -35,18 +35,17 @@ O Mobile App para Realidade Aumentada foi desenvolvido em react native por outro
 
 >`Reconhecimento de imagens:`
 
-Descrição: O microserviço de reconhecimento de imagens possibilita que além de identificar os componentes da imagem, seja possivel sugerir as categorias e também recortar na foto somente o elemento que esteja sendo vendido.
+> Descrição: O microserviço de reconhecimento de imagens possibilita que além de identificar os componentes da imagem, seja possivel sugerir as categorias e também recortar na foto somente o elemento que esteja sendo vendido.
 
 >`Scrap:`
 
-Descrição: Após o usuário informar o link de um produto parecido, o assistente irá analisar a página e obter os diversos campos do produto, além da lista de perguntas. Essas informações terão 2 objetidos:
+> Descrição: Após o usuário informar o link de um produto parecido, o assistente irá analisar a página e obter os diversos campos do produto, além da lista de perguntas. Essas informações terão 2 objetidos:
 Campos do produto podem ser utilizados pelo vendedor para ajustar algo específico sem precisar digitar tudo do zero.
 Lista de perguntas poderá ser utilizada para treinamento automático do Chatbot.
 
 >`Chatbot:`
 
-```Descrição: A criação do ChatBot foi feita para identificar trechos das frases relacionadas a "entidade produto" e a "entidade duvida". Após essa identificação, conseguiremos ter recebido uma entrada com dados não estruturados e teremos identificado os componentes de maneira estruturada para possibilitar a pesquisa no Banco de Dados. Um dos principais desafios da construção de robôs que utilizam NPU (Natural Language Understanding) é o treinamento do modelo com diversos exemplos para que o mecanismo de ML (machine learning) utilizado pelo motor do Chatbot consiga ter exemplos significativos de cada "entidade". 
-```
+> Descrição: A criação do ChatBot foi feita para identificar trechos das frases relacionadas a "entidade produto" e a "entidade duvida". Após essa identificação, conseguiremos ter recebido uma entrada com dados não estruturados e teremos identificado os componentes de maneira estruturada para possibilitar a pesquisa no Banco de Dados. Um dos principais desafios da construção de robôs que utilizam NPU (Natural Language Understanding) é o treinamento do modelo com diversos exemplos para que o mecanismo de ML (machine learning) utilizado pelo motor do Chatbot consiga ter exemplos significativos de cada "entidade". 
 
 >`Treinamento automatizado do Chatbot:`
 
