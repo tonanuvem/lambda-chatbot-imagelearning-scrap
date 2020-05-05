@@ -1,0 +1,16 @@
+nome:
+    css: h1.item-title__primary
+    type: Text
+preco:
+    css: 'fieldset.item-price span.price-tag'
+    type: Text
+caracteristicas:
+    css: 'section.specs-container.specs-primary-specs li.specs-item'
+    type: Text
+descricao:
+    css: 'div.item-description__text p'
+    type: Text
+perguntas:
+    css: 'article.questions__item.questions__item--question p'
+    multiple: true
+    type: Text
