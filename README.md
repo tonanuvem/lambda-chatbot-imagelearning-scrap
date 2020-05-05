@@ -41,8 +41,8 @@ O Mobile App para Realidade Aumentada foi desenvolvido em react native por outro
 >`Scrap:`
 
 ```Descrição: Após o usuário informar o link de um produto parecido, o assistente irá analisar a página e obter os diversos campos do produto, além da lista de perguntas. Essas informações terão 2 objetidos:
-<ul> Campos do produto podem ser utilizados pelo vendedor para ajustar algo específico sem precisar digitar tudo do zero.
-<ul> Lista de perguntas poderá ser utilizada para treinamento automático do Chatbot.
+Campos do produto podem ser utilizados pelo vendedor para ajustar algo específico sem precisar digitar tudo do zero.
+Lista de perguntas poderá ser utilizada para treinamento automático do Chatbot.
 ```
 
 >`Chatbot:`
