@@ -4,7 +4,8 @@
 
 [Vídeo do pitch](https://www.youtube.com/watch?v=-5I-7OoBm6Y)
 
-[Mobile App](https://github.com/patrickbattisti/olist-augmented-reality) 
+[Github Mobile App](https://github.com/patrickbattisti/olist-augmented-reality) 
+
 
 ## **Topologia da solução:**
 
