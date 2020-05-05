@@ -5,7 +5,7 @@ def scrape(url, phone_number):
          retorno = 'Ainda não sei analisar muitos marketplaces. O link a ser analisado deve iniciar com: *https://* seguido por *produto.mercadolivre.com.br*'
          return enviar_statuszap(retorno, phone_number)
 
-    e = Extractor.from_yaml_file('oly_scrap_selectors_ml.yml')
+    e = Extractor.from_yaml_file('oly_scrap_selectors_mercadolivre.yml')
     headers = {
         'pragma': 'no-cache',
         'cache-control': 'no-cache',
@@ -34,7 +34,7 @@ def scrape(url, phone_number):
     print(print_data_json(data))
     # se der erro, tentar o outro template de pagina que o mercado livre usa:
     if not data.get('nome'):
-        e = Extractor.from_yaml_file('oly_scrap_selectors_2.yml')
+        e = Extractor.from_yaml_file('oly_scrap_selectors_mercadolivre2.yml')
         data = e.extract(r.text)
         print(print_data_json(data))
     
