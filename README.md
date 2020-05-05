@@ -77,4 +77,3 @@ O Mobile App para Realidade Aumentada foi desenvolvido em react native por outro
 ![Alt Text](assistente-3d/tela-projeto-3d.png)
 
 ---
-
