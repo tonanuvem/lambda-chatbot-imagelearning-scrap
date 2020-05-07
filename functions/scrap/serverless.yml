@@ -5,8 +5,8 @@ org: tonanuvem
 provider:
   name: aws
   runtime: python3.6
-  tracing:
-    lambda: true # optional, enables tracing for all functions (can be true (true equals 'Active') 'Active' or 'PassThrough')
+#  tracing:
+#    lambda: true # optional, enables tracing for all functions (can be true (true equals 'Active') 'Active' or 'PassThrough')
   stage: prod
   region: us-east-1
   # modificar o ID (277451105736) abaixo:
