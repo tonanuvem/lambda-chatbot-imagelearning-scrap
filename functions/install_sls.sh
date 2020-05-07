@@ -14,7 +14,7 @@ read INSTALAR
 if ($INSTALAR=="y");
 then
   cd scrap
-  sls_config.sh
+  sls_exec.sh
   cd ..
 else
   echo "Escolhido não instalar"
