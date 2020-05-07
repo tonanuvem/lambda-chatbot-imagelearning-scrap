@@ -1,0 +1,17 @@
+nome:
+    css: 'h1.ui-pdp-title'
+    type: Text
+preco:
+    css: 'span.price-tag-fraction'
+    type: Text
+caracteristicas:
+    css: div.ui-pdp-specs
+    multiple: true
+    type: Text
+descricao:
+    css: p.ui-pdp-description__content
+    type: Text
+perguntas:
+    css: p.ui-pdp-color--BLACK
+    multiple: true
+    type: Text
