@@ -6,15 +6,17 @@ chmod +x scrap/sls_config.sh
 #CONFIGURAR
 echo "Configurando as dependencias"
 cd scrap
-sls_config.sh
+chmod +x sls_config.sh
+./sls_config.sh
+chmod +x sls_exec.sh
 cd ..
 #INSTALAR
 echo "Deseja instalar (y/N)": 
 read INSTALAR
-if ($INSTALAR=="y");
+if ("$INSTALAR"=="y");
 then
   cd scrap
-  sls_exec.sh
+  ./sls_exec.sh
   cd ..
 else
   echo "Escolhido não instalar"
