@@ -11,7 +11,7 @@ chmod +x sls_config.sh
 chmod +x sls_exec.sh
 cd ..
 #INSTALAR
-echo -p "Deseja instalar (y/N)": 
+echo "Deseja instalar (y/N) : " 
 read INSTALAR
 if [ $INSTALAR == y ];
 then
