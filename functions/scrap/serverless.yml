@@ -11,7 +11,7 @@ provider:
   region: us-east-1
   role: arn:aws:iam::277451105736:role/s3lambda
 functions:
-  hello:
+  scrap:
     handler: handler.hello
     events:
       - http: POST /
