@@ -1,17 +1,16 @@
 nome:
-    css: 'h1.ui-pdp-title'
+    css: h1.item-title__primary
     type: Text
 preco:
-    css: 'span.price-tag-fraction'
+    css: 'fieldset.item-price span.price-tag'
     type: Text
 caracteristicas:
-    css: div.ui-pdp-specs
-    multiple: true
+    css: 'section.specs-container.specs-primary-specs li.specs-item'
     type: Text
 descricao:
-    css: p.ui-pdp-description__content
+    css: 'div.item-description__text p'
     type: Text
 perguntas:
-    css: p.ui-pdp-color--BLACK
+    css: 'article.questions__item.questions__item--question p'
     multiple: true
     type: Text
