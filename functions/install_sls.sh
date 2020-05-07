@@ -12,7 +12,7 @@ chmod +x sls_exec.sh
 cd ..
 # CONFIGURAR IAM
 echo "Configurando as AWS IAM. Será preciso ajustar o arquivo serverless.yaml com ARN:"
-aws iam create-role --role-name Test-Role --assume-role-policy-document file://s3fullaccess.json
+aws iam create-role --role-name s3lambda --assume-role-policy-document file://s3lambda.json
 echo "Após ajustar o ARN no arquivo serverless.yml, digite qualquer tecla para continuar."
 read CONTINUAR
 #INSTALAR
