@@ -1,0 +1,26 @@
+service: scrap
+app: scrap
+org: tonanuvem
+
+provider:
+  name: aws
+  runtime: python3.6
+  tracing:
+    lambda: true # optional, enables tracing for all functions (can be true (true equals 'Active') 'Active' or 'PassThrough')
+  stage: prod
+  region: us-east-1
+  role: arn:aws:iam::277451105736:role/s3lambda
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http: POST /
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    
+# you can define service wide environment variables here
+#  environment:
+#    variable1: value1
