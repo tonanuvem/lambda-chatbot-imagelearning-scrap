@@ -98,9 +98,9 @@ def scrape(url, phone_number):
         except Exception as e:
             print('Erro ao gerar o arquivo da análise')
             logging.error(e)
-    return print_data_json(data, false) #"URL procesada: "+url
+    return print_data_json(data, False) #"URL procesada: "+url
 
-def print_data_json(data_completo, indent=true):
+def print_data_json(data_completo, indent=True):
     # excluir só na hora de imprimir. ao salvar tem que aparecer.
     data = dict(data_completo)
     del data['perguntas']
