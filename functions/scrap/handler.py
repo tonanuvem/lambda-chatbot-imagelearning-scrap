@@ -20,8 +20,14 @@ def hello(event, context):
     body['retorno'] = scrape(ebody['url'],"whatsapp:+5511987654321") #str(ebody['url']) #str(type(event['body'])) #
 
     response = {
-        "statusCode": 200,
-        "body": json.dumps(body)
+        'statusCode': 200,
+        'headers': {
+            'Content-Type': 'application/json',
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Allow-Methods": "OPTIONS,POST"
+        },
+        'body': json.dumps(body)
     }
 
     return response
